@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{035C924C-0169-4DB9-B176-4FC5B3A2BE12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{79B4D07E-B952-49D8-A51B-35212786EAE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{3EA7FE5A-13C8-486E-968A-8341DF3DDD44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{035C924C-0169-4DB9-B176-4FC5B3A2BE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035C924C-0169-4DB9-B176-4FC5B3A2BE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035C924C-0169-4DB9-B176-4FC5B3A2BE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035C924C-0169-4DB9-B176-4FC5B3A2BE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B4D07E-B952-49D8-A51B-35212786EAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B4D07E-B952-49D8-A51B-35212786EAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B4D07E-B952-49D8-A51B-35212786EAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B4D07E-B952-49D8-A51B-35212786EAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA7FE5A-13C8-486E-968A-8341DF3DDD44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA7FE5A-13C8-486E-968A-8341DF3DDD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA7FE5A-13C8-486E-968A-8341DF3DDD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA7FE5A-13C8-486E-968A-8341DF3DDD44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7C79BF0-934B-4E75-9124-E260479B42A8}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://testpilotproject.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Multithreading\\Multithreading.csproj
+		SccProjectName1 = Multithreading
+		SccLocalPath1 = Multithreading
+		SccProjectUniqueName2 = Task1\\Task1.csproj
+		SccProjectName2 = Task1
+		SccLocalPath2 = Task1
+		SccProjectUniqueName3 = Task2\\Task2.csproj
+		SccProjectName3 = Task2
+		SccLocalPath3 = Task2
+	EndGlobalSection
+EndGlobal

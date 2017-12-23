@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<amazon>
+  <productsgroup category="phones">
+    <product name="iPhone 6">
+      <company>Apple</company>
+      <price>40000</price>
+    </product>
+    <product name="Samsung Galaxy S5">
+      <company>Samsung</company>
+      <price>33000</price>
+    </product>
+  </productsgroup>
+  
+  <productsgroup category="books">
+    <product name="Book of Apple">
+    </product>
+    <product name="Book of Samsung">
+    </product>
+  </productsgroup>
+
+  <productsgroup category="tables">
+    <product name="Table of Apple">
+      <company>Apple</company>
+      <price>90000</price>
+    </product>
+    <product name="Table of Samsung">
+      <company>Samsung</company>
+      <price>12000</price>
+    </product>
+    <product name="Table Lenovo">
+    </product>
+    <product name="Table of Microsoft">
+      <company>Microsoft</company>
+      <price>12000</price>
+    </product>
+    <product name="Table of Nokia">
+    </product>
+  </productsgroup>
+  
+  <productsgroup category="airplane">
+
+  </productsgroup>
+
+  <productsgroup category="chairs">
+    <product name="Chair of Apple">
+      <company>Apple</company>
+      <price>65000</price>
+    </product>
+    <product name="Chair of Samsung">
+      <company>Samsung</company>
+      <price>10000</price>
+    </product>
+  </productsgroup>
+</amazon>

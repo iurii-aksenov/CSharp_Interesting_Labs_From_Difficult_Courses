@@ -1,0 +1,176 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF", "WCF\WCF.csproj", "{48E434B1-D3F2-463B-B509-CB4D0BBCE3B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{1D3B6214-EC57-4D5A-8781-B9EFAEC295CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCalculatorApplication", "Clients\ConsoleCalculatorApplication\ConsoleCalculatorApplication.csproj", "{E3E64CA3-B648-4E6D-81B5-A85B9D6E21F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EDC8E658-4770-42D2-9FD2-EC4068CFC5B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MasterService", "MasterService", "{5F982219-D94E-4343-942D-D252B3B71848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterServiceLibrary", "Services\MasterService\MasterServiceLibrary\MasterServiceLibrary.csproj", "{5DDA6CE3-DF21-47EA-9978-F4C713C04323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterServiceConsoleHost", "Services\MasterService\MasterServiceConsoleHost\MasterServiceConsoleHost.csproj", "{64F87A4F-EEB3-41C7-81AA-FD023B24DB54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NodeService1", "NodeService1", "{9EBD195A-21DF-4A71-B7F0-E97A79910537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeService1Library", "Services\NodeService1\NodeService1Library\NodeService1Library.csproj", "{197631A2-0294-47C2-A9E0-7259D7817C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeService1ConsoleHost", "Services\NodeService1\NodeService1ConsoleHost\NodeService1ConsoleHost.csproj", "{ABDF2516-EA41-4570-9701-7C38DCA02D42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NodeService2", "NodeService2", "{AD064B10-0D30-4134-BCF1-98CF102E4F08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeService2Library", "Services\NodeService2\NodeService2Library\NodeService2Library.csproj", "{112006EB-CDE4-42EA-9654-C2CB013451A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeService2ConsoleHost", "Services\NodeService2\NodeService2ConsoleHost\NodeService2ConsoleHost.csproj", "{40D0728C-DDF6-4C32-97BC-87F76B80E5E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NodeService3", "NodeService3", "{EA810631-5336-4666-AFF6-605C9527A208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeService3ConsoleHost", "Services\NodeService3\NodeService3ConsoleHost\NodeService3ConsoleHost.csproj", "{EE6F432F-9A82-40ED-A2AD-E5D44B527211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeService3Library", "Services\NodeService3\NodeService3Library\NodeService3Library.csproj", "{F91B1103-6785-4C11-A6ED-81C5266DBC5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NodeService4", "NodeService4", "{8CDC5F41-4578-490A-A532-B2044745F437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeService4Library", "Services\NodeService4\NodeService4Library\NodeService4Library.csproj", "{8672D61A-9DB1-4745-ABC3-165D2B8883F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeService4ConsoleHost", "Services\NodeService4\NodeService4ConsoleHost\NodeService4ConsoleHost.csproj", "{52581BDF-D734-4BED-B272-F5D2C3134A61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48E434B1-D3F2-463B-B509-CB4D0BBCE3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E434B1-D3F2-463B-B509-CB4D0BBCE3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E434B1-D3F2-463B-B509-CB4D0BBCE3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E434B1-D3F2-463B-B509-CB4D0BBCE3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E64CA3-B648-4E6D-81B5-A85B9D6E21F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E64CA3-B648-4E6D-81B5-A85B9D6E21F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E64CA3-B648-4E6D-81B5-A85B9D6E21F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E64CA3-B648-4E6D-81B5-A85B9D6E21F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDA6CE3-DF21-47EA-9978-F4C713C04323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDA6CE3-DF21-47EA-9978-F4C713C04323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDA6CE3-DF21-47EA-9978-F4C713C04323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDA6CE3-DF21-47EA-9978-F4C713C04323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F87A4F-EEB3-41C7-81AA-FD023B24DB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F87A4F-EEB3-41C7-81AA-FD023B24DB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F87A4F-EEB3-41C7-81AA-FD023B24DB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F87A4F-EEB3-41C7-81AA-FD023B24DB54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197631A2-0294-47C2-A9E0-7259D7817C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197631A2-0294-47C2-A9E0-7259D7817C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197631A2-0294-47C2-A9E0-7259D7817C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197631A2-0294-47C2-A9E0-7259D7817C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDF2516-EA41-4570-9701-7C38DCA02D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDF2516-EA41-4570-9701-7C38DCA02D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDF2516-EA41-4570-9701-7C38DCA02D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDF2516-EA41-4570-9701-7C38DCA02D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{112006EB-CDE4-42EA-9654-C2CB013451A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112006EB-CDE4-42EA-9654-C2CB013451A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112006EB-CDE4-42EA-9654-C2CB013451A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112006EB-CDE4-42EA-9654-C2CB013451A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D0728C-DDF6-4C32-97BC-87F76B80E5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D0728C-DDF6-4C32-97BC-87F76B80E5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D0728C-DDF6-4C32-97BC-87F76B80E5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D0728C-DDF6-4C32-97BC-87F76B80E5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6F432F-9A82-40ED-A2AD-E5D44B527211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6F432F-9A82-40ED-A2AD-E5D44B527211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6F432F-9A82-40ED-A2AD-E5D44B527211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6F432F-9A82-40ED-A2AD-E5D44B527211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F91B1103-6785-4C11-A6ED-81C5266DBC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91B1103-6785-4C11-A6ED-81C5266DBC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91B1103-6785-4C11-A6ED-81C5266DBC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91B1103-6785-4C11-A6ED-81C5266DBC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8672D61A-9DB1-4745-ABC3-165D2B8883F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8672D61A-9DB1-4745-ABC3-165D2B8883F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8672D61A-9DB1-4745-ABC3-165D2B8883F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8672D61A-9DB1-4745-ABC3-165D2B8883F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52581BDF-D734-4BED-B272-F5D2C3134A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52581BDF-D734-4BED-B272-F5D2C3134A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52581BDF-D734-4BED-B272-F5D2C3134A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52581BDF-D734-4BED-B272-F5D2C3134A61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3E64CA3-B648-4E6D-81B5-A85B9D6E21F5} = {1D3B6214-EC57-4D5A-8781-B9EFAEC295CC}
+		{5F982219-D94E-4343-942D-D252B3B71848} = {EDC8E658-4770-42D2-9FD2-EC4068CFC5B6}
+		{5DDA6CE3-DF21-47EA-9978-F4C713C04323} = {5F982219-D94E-4343-942D-D252B3B71848}
+		{64F87A4F-EEB3-41C7-81AA-FD023B24DB54} = {5F982219-D94E-4343-942D-D252B3B71848}
+		{9EBD195A-21DF-4A71-B7F0-E97A79910537} = {EDC8E658-4770-42D2-9FD2-EC4068CFC5B6}
+		{197631A2-0294-47C2-A9E0-7259D7817C0B} = {9EBD195A-21DF-4A71-B7F0-E97A79910537}
+		{ABDF2516-EA41-4570-9701-7C38DCA02D42} = {9EBD195A-21DF-4A71-B7F0-E97A79910537}
+		{AD064B10-0D30-4134-BCF1-98CF102E4F08} = {EDC8E658-4770-42D2-9FD2-EC4068CFC5B6}
+		{112006EB-CDE4-42EA-9654-C2CB013451A2} = {AD064B10-0D30-4134-BCF1-98CF102E4F08}
+		{40D0728C-DDF6-4C32-97BC-87F76B80E5E6} = {AD064B10-0D30-4134-BCF1-98CF102E4F08}
+		{EA810631-5336-4666-AFF6-605C9527A208} = {EDC8E658-4770-42D2-9FD2-EC4068CFC5B6}
+		{EE6F432F-9A82-40ED-A2AD-E5D44B527211} = {EA810631-5336-4666-AFF6-605C9527A208}
+		{F91B1103-6785-4C11-A6ED-81C5266DBC5D} = {EA810631-5336-4666-AFF6-605C9527A208}
+		{8CDC5F41-4578-490A-A532-B2044745F437} = {EDC8E658-4770-42D2-9FD2-EC4068CFC5B6}
+		{8672D61A-9DB1-4745-ABC3-165D2B8883F2} = {8CDC5F41-4578-490A-A532-B2044745F437}
+		{52581BDF-D734-4BED-B272-F5D2C3134A61} = {8CDC5F41-4578-490A-A532-B2044745F437}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEF5FFB5-0AA6-49B7-8762-936A6E053C6C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://testpilotproject.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WCF\\WCF.csproj
+		SccProjectName1 = WCF
+		SccLocalPath1 = WCF
+		SccProjectUniqueName2 = Clients\\ConsoleCalculatorApplication\\ConsoleCalculatorApplication.csproj
+		SccProjectTopLevelParentUniqueName2 = WCF.sln
+		SccProjectName2 = Clients/ConsoleCalculatorApplication
+		SccLocalPath2 = Clients\\ConsoleCalculatorApplication
+		SccProjectUniqueName3 = Services\\MasterService\\MasterServiceLibrary\\MasterServiceLibrary.csproj
+		SccProjectTopLevelParentUniqueName3 = WCF.sln
+		SccProjectName3 = Services/MasterService/MasterServiceLibrary
+		SccLocalPath3 = Services\\MasterService\\MasterServiceLibrary
+		SccProjectUniqueName4 = Services\\MasterService\\MasterServiceConsoleHost\\MasterServiceConsoleHost.csproj
+		SccProjectTopLevelParentUniqueName4 = WCF.sln
+		SccProjectName4 = Services/MasterService/MasterServiceConsoleHost
+		SccLocalPath4 = Services\\MasterService\\MasterServiceConsoleHost
+		SccProjectUniqueName5 = Services\\NodeService1\\NodeService1Library\\NodeService1Library.csproj
+		SccProjectTopLevelParentUniqueName5 = WCF.sln
+		SccProjectName5 = Services/NodeService1/NodeService1Library
+		SccLocalPath5 = Services\\NodeService1\\NodeService1Library
+		SccProjectUniqueName6 = Services\\NodeService1\\NodeService1ConsoleHost\\NodeService1ConsoleHost.csproj
+		SccProjectTopLevelParentUniqueName6 = WCF.sln
+		SccProjectName6 = Services/NodeService1/NodeService1ConsoleHost
+		SccLocalPath6 = Services\\NodeService1\\NodeService1ConsoleHost
+		SccProjectUniqueName7 = Services\\NodeService2\\NodeService2Library\\NodeService2Library.csproj
+		SccProjectTopLevelParentUniqueName7 = WCF.sln
+		SccProjectName7 = Services/NodeService2/NodeService2Library
+		SccLocalPath7 = Services\\NodeService2\\NodeService2Library
+		SccProjectUniqueName8 = Services\\NodeService2\\NodeService2ConsoleHost\\NodeService2ConsoleHost.csproj
+		SccProjectTopLevelParentUniqueName8 = WCF.sln
+		SccProjectName8 = Services/NodeService2/NodeService2ConsoleHost
+		SccLocalPath8 = Services\\NodeService2\\NodeService2ConsoleHost
+		SccProjectUniqueName9 = Services\\NodeService3\\NodeService3ConsoleHost\\NodeService3ConsoleHost.csproj
+		SccProjectTopLevelParentUniqueName9 = WCF.sln
+		SccProjectName9 = Services/NodeService3/NodeService3ConsoleHost
+		SccLocalPath9 = Services\\NodeService3\\NodeService3ConsoleHost
+		SccProjectUniqueName10 = Services\\NodeService3\\NodeService3Library\\NodeService3Library.csproj
+		SccProjectTopLevelParentUniqueName10 = WCF.sln
+		SccProjectName10 = Services/NodeService3/NodeService3Library
+		SccLocalPath10 = Services\\NodeService3\\NodeService3Library
+		SccProjectUniqueName11 = Services\\NodeService4\\NodeService4Library\\NodeService4Library.csproj
+		SccProjectTopLevelParentUniqueName11 = WCF.sln
+		SccProjectName11 = Services/NodeService4/NodeService4Library
+		SccLocalPath11 = Services\\NodeService4\\NodeService4Library
+		SccProjectUniqueName12 = Services\\NodeService4\\NodeService4ConsoleHost\\NodeService4ConsoleHost.csproj
+		SccProjectTopLevelParentUniqueName12 = WCF.sln
+		SccProjectName12 = Services/NodeService4/NodeService4ConsoleHost
+		SccLocalPath12 = Services\\NodeService4\\NodeService4ConsoleHost
+	EndGlobalSection
+EndGlobal

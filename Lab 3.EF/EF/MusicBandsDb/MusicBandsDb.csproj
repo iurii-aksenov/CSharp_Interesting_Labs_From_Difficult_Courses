@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{474F45E3-EDCB-4307-A21D-634B89C4EA5B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MusicBandsDb</RootNamespace>
+    <AssemblyName>MusicBandsDb</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\MusicianProfile.cs" />
+    <Compile Include="Entities\Band.cs" />
+    <Compile Include="Entities\Performance.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="IStatsUpdate.cs" />
+    <Compile Include="Migrations\201711192327588_First.cs" />
+    <Compile Include="Migrations\201711192327588_First.Designer.cs">
+      <DependentUpon>201711192327588_First.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711192331244_Second.cs" />
+    <Compile Include="Migrations\201711192331244_Second.Designer.cs">
+      <DependentUpon>201711192331244_Second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711201152147_AddIsDeletedField.cs" />
+    <Compile Include="Migrations\201711201152147_AddIsDeletedField.Designer.cs">
+      <DependentUpon>201711201152147_AddIsDeletedField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711201203514_AddchangedintToDoubleField.cs" />
+    <Compile Include="Migrations\201711201203514_AddchangedintToDoubleField.Designer.cs">
+      <DependentUpon>201711201203514_AddchangedintToDoubleField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711201205234_AddInitNew.cs" />
+    <Compile Include="Migrations\201711201205234_AddInitNew.Designer.cs">
+      <DependentUpon>201711201205234_AddInitNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712090747173_Add_Band_Property_In_Stats.cs" />
+    <Compile Include="Migrations\201712090747173_Add_Band_Property_In_Stats.Designer.cs">
+      <DependentUpon>201712090747173_Add_Band_Property_In_Stats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712090903303_AddingDefaultPropery.cs" />
+    <Compile Include="Migrations\201712090903303_AddingDefaultPropery.Designer.cs">
+      <DependentUpon>201712090903303_AddingDefaultPropery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="MusicBandContext.cs" />
+    <Compile Include="Entities\Musician.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entities\Song.cs" />
+    <Compile Include="Entities\Stats.cs" />
+    <Compile Include="Repositories\BandRepository.cs" />
+    <Compile Include="Repositories\MusicianProfileRepository.cs" />
+    <Compile Include="Repositories\MusicianRepository.cs" />
+    <Compile Include="Repositories\PerformanceRepository.cs" />
+    <Compile Include="Repositories\SongRepository.cs" />
+    <Compile Include="Repositories\StatsRepository.cs" />
+    <Compile Include="UnitOfWork.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201711192327588_First.resx">
+      <DependentUpon>201711192327588_First.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711192331244_Second.resx">
+      <DependentUpon>201711192331244_Second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711201152147_AddIsDeletedField.resx">
+      <DependentUpon>201711201152147_AddIsDeletedField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711201203514_AddchangedintToDoubleField.resx">
+      <DependentUpon>201711201203514_AddchangedintToDoubleField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711201205234_AddInitNew.resx">
+      <DependentUpon>201711201205234_AddInitNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712090747173_Add_Band_Property_In_Stats.resx">
+      <DependentUpon>201712090747173_Add_Band_Property_In_Stats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712090903303_AddingDefaultPropery.resx">
+      <DependentUpon>201712090903303_AddingDefaultPropery.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
